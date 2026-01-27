@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Caprice</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <h1>Patricia KAMENI</h1>
+      <nav>
+        <a href="#about">À propos</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero section -->
+  <section class="hero">
+    <div class="hero-content">
+      <img src="image.jpg" alt="Ma photo" class="profile-img">
+      <h2>Salut, moi c'est patricia Kameni</h2>
+      <p>Développeur Web </p>
+    </div>
+  </section>
+ <!-- À propos -->
+ <section id="about" class="section">
+    <h3><i class="fas fa-user icon"></i> À propos de moi</h3><br><br>
+    <p class="animated-text">
+      Je suis patricia kameni, étudiant passionné par le monde du numérique. Depuis mes débuts dans l’informatique, je me suis orienté vers le développement web et la création de solutions interactives. 
+      <br><br>
+      J’aime transformer des idées en projets concrets. 
+      <br><br>
+      Rigoureux, créatif et toujours en quête d’apprentissage, je m’investis pleinement dans ce que je fais. Mon objectif est de contribuer à la création d’un web plus beau, plus fonctionnel, et plus accessible.
+    </p>
+    <p id="typewriter" class="animated-text"></p>
+ </section><br>
+  
+ 
+  <!-- Projets -->
+  <section id="projects" class="section">
+    <h3><i class="fas fa-folder-open icon"></i>Mes Projets</h3><br><br>
+    <!-- Projet : Mon Site -->
+    </a>
+  </div>
+  <div class="projets-grid">
+    <div class="project-card">
+      <img src="logo1.jpg" alt="logo1">
+      <h3>Site cap-terre</h3>
+      <p>Site web responsive pour promouvoir l'agriculture en Afrique.</p>
+      <a href="agriculture/index.html" target="_blank" class="project-link glow-button">Voir le site agricole</a>
+  
+    </div><br> <br>
+    <div class="project-card">
+      <img src="logo.jpg" alt="logo">
+      <h4>site restaurant</h4>
+      <p>Un site web responsive qui mets en avant les repas Camerounais.</p>
+      <a href="projet.html" target="_blank" class="project-link glow-button">🔗 Voir le site</a>
+        
+    </div>    
+  </div>
+  
+  </section><br><br>
+  <!-- Compétences -->
+<section id="skills" class="section">
+    <h3><i class="fas fa-tools icon"></i>Mes Compétences</h3><br>
+    <div class="skill-container">
+      <div class="skill-bar">
+        <span>HTML/CSS</span>
+        <div class="bar">
+          <div class="progress" style="width: 88%;">88%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span>JavaScript</span>
+        <div class="bar">
+          <div class="progress" style="width: 55%;">55%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span>travail en equipe</span>
+        <div class="bar">
+          <div class="progress" style="width: 80%;">80%</div>
+        </div>
+      </div>
+      <div class="skill-bar">
+        <span>Figma / Canva</span>
+        <div class="bar">
+          <div class="progress" style="width: 35%;">35%</div>
+        </div>
+      </div>
+    </div>
+  </section><br><br>
+  
+  
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h3><i class="fas fa-enveloper icon"></i>Contact</h3><br>
+    <form>
+      <input type="text" placeholder="Nom" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    caprice
+  </footer>
+
+  <script src="script.js"></script>
+  <!-- Bouton paramètres -->
+<div id="settings-toggle">
+    <i class="fas fa-cog"></i>
+  </div>
+  
+  <!-- Panneau de configuration -->
+  <div id="settings-panel">
+    <h4>🎛️ Paramètres</h4>
+    <button onclick="toggleTheme()">🌗 Thème : Clair / Sombre</button>
+    <button onclick="changeBackground()">🎨 Couleur de fond</button>
+    <button onclick="adjustContrast()">🌈 Réduire le contraste</button>
+  </div>
+  
+</body>
+</html>

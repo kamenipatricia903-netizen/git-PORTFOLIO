@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reservez</title>
+</head>
+<body>
+    <style>
+        body{
+           background-image: radial-gradient(blue,rgb(44, 1, 1));
+       }
+       img{
+           width: 50%;
+           height: auto;
+           display: block;
+           margin-left: auto;
+           margin-right: auto;
+       }#reservation-form {
+ max-width: 500px;
+ margin: 40px auto;
+ padding: 20px;
+ background-color: #f9f9f9;
+ border: 1px solid #ccc;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+ margin-bottom: 20px;
+}
+
+label {
+ display: block;
+ margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="date"], input[type="time"] {
+ width: 100%;
+ height: 40px;
+ margin-bottom: 20px;
+ padding: 10px;
+ border: 1px solid #ccc;
+}
+
+select {
+ width: 100%;
+ height: 40px;
+ margin-bottom: 20px;
+ padding: 10px;
+ border: 1px solid #ccc;
+}
+
+textarea {
+ width: 100%;
+ height: 100px;
+ margin-bottom: 20px;
+ padding: 10px;
+ border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+ background-color: #4CAF50;
+ color: #fff;
+ padding: 10px 20px;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+}
+
+button[type="submit"]:hover {
+ background-color: #3e8e41;
+}
+
+
+   </style>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <div>
+               <img src="logo.jpg" alt="mon restaurant"/>
+           </div>
+            <div style="color:brown;">
+       <h3><i class="fa-solid fa-phone"></i>&nbsp;appel-nous: 02/123.45.67</h3>
+   <h1 style=" color: blueviolet; text-align: center;"><Strong><u>Fiche de reservation</u></Strong></h1>
+   <form id="reservation-form">
+ <h2>Fiche de réservation</h2>
+ <div class="section">
+   <h3>Informations de réservation</h3>
+   <label for="date">Date de réservation :</label>
+   <input type="date" id="date" name="date">
+   <label for="heure">Heure de réservation :</label>
+   <input type="time" id="heure" name="heure">
+   <label for="nombre">Nombre de personnes :</label>
+   <input type="number" id="nombre" name="nombre">
+ </div>
+ <div class="section">
+   <h3>Informations de contact</h3>
+   <label for="nom">Nom :</label>
+   <input type="text" id="nom" name="nom">
+   <label for="telephone">Téléphone :</label>
+   <input type="tel" id="telephone" name="telephone">
+   <label for="email">Adresse e-mail :</label>
+   <input type="email" id="email" name="email">
+ </div>
+ <div class="section">
+   <h3>Préférences</h3>
+   <label for="terrasse">Table en terrasse :</label>
+   <select id="terrasse" name="terrasse">
+     <option value="oui">Oui</option>
+     <option value="non">Non</option>
+   </select>
+   <label for="fenetre">Table près de la fenêtre :</label>
+   <select id="fenetre" name="fenetre">
+     <option value="oui">Oui</option>
+     <option value="non">Non</option>
+   </select>
+   <label for="menu-special">Menu spécial :</label>
+   <select id="menu-special" name="menu-special">
+     <option value="oui">Oui</option>
+     <option value="non">Non</option>
+   </select>
+   <label for="specifiez">Spécifiez :</label>
+   <input type="text" id="specifiez" name="specifiez">
+ </div>
+ <div class="section">
+   <h3>Remarques</h3>
+   <textarea id="remarques" name="remarques"></textarea>
+ </div>
+ <div class="section">
+   <h3>Confirmation</h3>
+   <label for="confirmation">Je confirme que j'ai lu et accepté les conditions de réservation du restaurant.</label>
+   <input type="checkbox" id="confirmation" name="confirmation">
+   <label for="annulation">Je comprends que les réservations peuvent être annulées en cas de non-respect des heures de réservation.</label>
+   <input type="checkbox" id="annulation" name="annulation">
+ </div>
+ <button type="submit">Réserver</button>
+</form>
+
+<a href="index.html" class="btn"> <strong style="color: aqua;">ACCUEIL</strong></a>
+
+</body>
+</html>
+</body>
+</html>
