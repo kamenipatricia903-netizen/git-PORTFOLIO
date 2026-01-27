@@ -197,3 +197,7 @@
    .titre img {width: 220px; }
    .card { grid-column: span 3;}
 }
+.body2{
+   background-image: url(/imag4.jpg);
+   background-position: center;
+}
