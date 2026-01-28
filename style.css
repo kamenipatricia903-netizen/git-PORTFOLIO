@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -242,6 +244,9 @@
     text-align: justify;
     background: linear-gradient(90deg, #004aad, #00c6ff, #6f42c1, #004aad);
     background-size: 400%;
+    font-family: "Kenia", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textColorFlow 8s linear infinite;
